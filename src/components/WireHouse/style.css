@@ -1,0 +1,35 @@
+li {
+    list-style: none;
+}
+
+.storage {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.storageArea {
+    width: 400px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+}
+.resourceName{
+    display: inline-block;
+    width: 100px;
+}
+.resourceNum{
+    display: inline-block;
+    width: 100px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
